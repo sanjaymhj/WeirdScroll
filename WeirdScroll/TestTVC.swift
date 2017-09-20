@@ -80,7 +80,7 @@ class TestTVC: UITableViewController {
         cell.delegate = self
         
         cell.mainLabel.text = String(describing: indexPath.row)
-
+        cell.selectionStyle = .none
         return cell
     }
 }
